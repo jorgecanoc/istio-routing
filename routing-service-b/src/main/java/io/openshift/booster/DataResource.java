@@ -33,7 +33,7 @@ public class DataResource {
     @Path("/data")
     @Produces(MediaType.TEXT_PLAIN)
     public String data() {
-        return "Hello from Service B!";
+        return "Hola, soy el servicio Banorte B!";
     }
 
 }
